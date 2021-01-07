@@ -1,8 +1,10 @@
 class Student < User
 
-def initialize
-  @knowledge = knowledge
-end
+ attr_accessor :knowledge
+
+  def initialize
+    @knowledge = []
+  end
 
 def learn()
 end 
